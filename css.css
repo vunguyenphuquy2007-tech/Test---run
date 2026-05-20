@@ -1,0 +1,256 @@
+nav {background-color:#36064D; display: flex; justify-content: space-between; align-items:center; padding: 10px 10px; position: sticky; top: 0%;  box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3); border-radius: 12px; background: linear-gradient(180deg, #050507, #14061f);}
+.logo h2 {font-family: 'Poppins', sans-serif; color: white; font-size: 20px; display: flex; flex-direction: column; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);}
+body{background:
+        radial-gradient(circle at top, rgba(62, 60, 60, 0.15), transparent),
+        linear-gradient(180deg, #050507, #000002);
+      margin: 0;}
+.menu a:hover {color:white;}
+.menu .active:hover{background: #5D1C6A; border-radius: 12px; padding: 30px 50px;}
+.menu a{font-family: 'Poppins', sans-serif; font-size: large ; padding: 50px; text-decoration: none; color: white;}
+.hero{padding: 80px 60px; align-items: center; display: flex; justify-content: center; gap: 30px;max-width: 1200px; margin: 0 auto; }
+.hero .content{color: white; font-family: 'Poppins', sans-serif; max-width: 800px; padding: 0; margin-top: 0; margin-top: 14px; line-height: 1.7;}
+.hero p{margin-bottom: 16px;}    
+.speed{font-size: 20px; max-width: 500px;}
+.portrait{display: flex; width: 400px; height: 450px; border-radius: 30px; flex-shrink: 0; margin: 0; padding: 0%; margin-top: 0;}
+.CTA a{display: flex; text-decoration: underline; font-family: 'Poppins', sans-serif; font-size: 15px; justify-content: flex-start; padding: 1px; color: white;  }
+.CTA a:hover{color: #9e24b7;font-weight: bolder;}
+.hero h2{text-decoration: none;}
+h1{text-decoration: bold; color: white; margin-top: 530px; font-family: 'Poppins'; text-align: center;}
+.split{max-width: 500px;}
+.about .talk {padding-top: 50px; padding-left: 70px;}      
+.about{ color: white; background-color: #0f0f14; margin-top: 80px; border-radius: 20px; margin-left: 50px; margin-right: 50px; font-family: 'Poppins', sans-serif; display: flex; justify-content: space-between; align-items: center;  padding: 50px 40px; gap: 10px}
+.about .self{max-width: 600px ; line-height: 35px; font-size: 18px; padding-top: 45px; }
+.about .hi{color: #9e24b7; letter-spacing: 2px; font-size: 22px;}
+.about .fast{padding-top: 40px;}
+.about .talk{width: 60%;}
+.html{color: rgb(226, 88, 23);}
+.css{color:rgb(42, 42, 131)}
+.js{color: rgb(239, 179, 14)}
+.py{color: rgb(79, 139, 216);}
+.thon{color: rgb(204, 204, 4)}
+.rb{color: rgb(20, 77, 152)}
+.picture img{width: 400px; height: auto; margin-top: 190px; margin-right: 100px; border-radius: 20px;}
+html{scroll-behavior: smooth;}
+.name{margin-left: 15px; margin-right: 1.5px; letter-spacing: 1.5px;}
+.name1{color: #a855f7}
+strong{color:#d8b4fe}
+.job{font-weight: bold; font-style: italic;}
+.hero {
+  background-color: #1a1a23;
+  background-image:
+    linear-gradient(rgba(168,85,247,0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168,85,247,0.1) 1px, transparent 1px);
+  background-size: 100px 100px;
+}
+.introduce{font-size: 36px; max-width: 750px;}
+.split2{max-width: 500px;}
+.contact-me{color:white; margin-top: 80px; background-color: #09090c; width: 100%; border-radius: 0%; margin-bottom: 0; padding-bottom: 0%; font-family: 'Poppins', sans-serif; display: flex; height: 400px;}
+.contact-me .inside{ justify-content: space-between; display: flex; ; margin-top: 50px; max-width: 100%; gap: 100px; margin-left: 140px;}
+.icon{border-radius: 50%; background-color: #5D1C6A; width: 60px; height: 60px; display:inline-flex; justify-content: center; align-items: center; margin-top: 20px}
+.SDT{gap: 10px; justify-content: space-between; display: flex;}
+.Email{gap: 10px; justify-content: space-between; display: flex;}
+.social{gap: 10px; justify-content: space-between; display: flex;}
+.link1{font-family: 'Poppins',sans-serif; text-decoration: none; color: white; font-size: 20px;}
+.link1:hover{color: #a855f7; font-weight: bold;}
+.link2{font-family: 'Poppins',sans-serif; text-decoration: none; color: white; font-size: 20px; line-height: 30px;}
+.link2:hover{color: #a855f7; font-weight: bold;}
+.face{border-radius: 50%; color: white; font-size: 29px;}
+.face:hover{color: #a855f7; font-weight: bold;}
+.suka{gap: 25px; display: flex;}
+.insta{border-radius: 50%; color: white; font-size: 29px;}
+.insta:hover{color: #a855f7; font-weight: bold;}
+.work1{border: 2px solid #36064D; border-radius: 12px; display: flex; margin-top: 80px; ; justify-content: space-between;margin-left: 300px; margin-right: 300px; height: 300px; align-items: center; color: white; font-family: "Poppins", sans-serif; }
+.anh2{width: 400px; height: 300px; justify-content: flex-end; display: block;}
+.words{margin-top: 1px; ; padding-left: 20px; margin-left: 50px; height: 200px; max-width: 500px;}
+.words p{padding-left: 35px; margin-top: 1px;}
+.words a{color:rgb(239, 219, 219); display: flex; padding-top: 40px; padding-left: 120px; font-size: larger; border: 10px 10px;}
+.words a:hover{ font-weight: bold; color: #a855f7; }
+.words h2{margin-top: 1px; letter-spacing: 3px; font-size:25px;} 
+
+/* =========================
+   REAL MOBILE FIX
+========================= */
+
+html,
+body{
+  overflow-x:hidden;
+}
+
+/* safer desktop */
+
+.work1{
+  margin:80px auto;
+  width:min(100%,1500px);
+  box-sizing:border-box;
+}
+
+.words{
+  margin:0;
+  height:auto;
+}
+
+.anh2{
+  max-width:100%;
+  height:auto;
+}
+
+/* mobile */
+
+@media (max-width:768px){
+
+  body{
+    overflow-x:hidden;
+  }
+
+  /* NAV */
+
+  .nav{
+    flex-direction:column;
+    gap:18px;
+    padding:16px;
+  }
+
+  .menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+  }
+
+  .menu a{
+    padding:10px 14px;
+    font-size:14px;
+  }
+
+  .menu .active:hover{
+    padding:10px 14px;
+  }
+
+  /* HERO */
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    padding:100px 20px;
+    gap:40px;
+  }
+
+  .portrait{
+    width:260px;
+    height:auto;
+  }
+
+  .hero .content{
+    align-items:center;
+    max-width:100%;
+  }
+
+  .introduce{
+    font-size:30px;
+    line-height:1.4;
+    max-width:100%;
+  }
+
+  .speed{
+    max-width:100%;
+    font-size:16px;
+  }
+
+  .CTA{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+  }
+
+  /* TITLES */
+
+  h1{
+    margin-top:120px;
+    font-size:36px;
+  }
+
+  /* ABOUT */
+
+  .about{
+    flex-direction:column;
+    padding:40px 24px;
+    text-align:center;
+    gap:40px;
+  }
+
+  .about .talk{
+    width:100%;
+  }
+
+  .about .self{
+    max-width:100%;
+    line-height:30px;
+    font-size:16px;
+  }
+
+  .picture img{
+    max-width:300px;
+  }
+
+  /* SKILLS */
+
+  .skills-container{
+    grid-template-columns:1fr;
+  }
+
+  /* PROJECT */
+
+  .work{
+    padding:30px 16px 80px;
+  }
+
+  .work1{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+    padding:30px 20px;
+  }
+
+  .words{
+    max-width:100%;
+    padding:0;
+  }
+
+  .words p{
+    font-size:16px;
+    line-height:1.7;
+  }
+
+  .words a{
+    margin:auto;
+    padding-left:0;
+  }
+
+  .anh2{
+    width:100%;
+    max-width:100%;
+  }
+
+  /* CONTACT */
+
+  .contact-me{
+    height:auto;
+    padding:50px 20px;
+  }
+
+  .contact-me .inside{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:50px;
+    margin-top:0;
+  }
+
+  .SDT,
+  .Email,
+  .social{
+    justify-content:center;
+  }
+
+}

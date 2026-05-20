@@ -1,0 +1,167 @@
+nav {background-color:#36064D; display: flex; justify-content: space-between; align-items:center; padding: 10px 10px; position: sticky; top: 0%;  box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3); border-radius: 12px; background: linear-gradient(180deg, #050507, #14061f);}
+.logo h2 {font-family: 'Poppins', sans-serif; color: white; font-size: 20px; display: flex; flex-direction: column; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);}
+body{background:
+        radial-gradient(circle at top, rgba(62, 60, 60, 0.15), transparent),
+        linear-gradient(180deg, #050507, #000002);
+      margin: 0; color: white; font-family: 'Poppins', sans-serif;}
+.menu a:hover {color:white;}
+.menu .active:hover{background: #5D1C6A; border-radius: 12px; padding: 30px 50px;}
+.menu a{font-family: 'Poppins', sans-serif; font-size: large ; padding: 50px; text-decoration: none; color: white;}
+.anh1{width: 1510px; height: 600px;}
+.h1{display: flex; align-items: center; justify-content: center; margin-top: 80px; letter-spacing: 2px; font-size: 50px;}
+.p1{display: flex; justify-content: center; margin-top: 1px; color: #a346b6; letter-spacing: 3px;}
+.content{display: flex; gap: 200px; max-width: 1100px; margin-top: 80px; margin-left: 260px; width: 100%;}
+.overview{width: 200px; display: flex; flex-direction: column; flex-shrink: 0;}
+.overview h1{margin: 0;}
+.h3-1{margin-top: 60px; margin-bottom: 3px; font-weight: bold;}
+.p2{margin: 0; font-size: medium;}
+.overview hr{max-width: 190px; width: 200px; display: flex; align-items: flex-start ;}
+.overview a{padding-top: 70px; padding-left: 21px; text-decoration: none; font-size: larger; display: inline-block; margin-top: 40px;
+  padding: 8px 12px;
+  border: 1px solid purple;
+  color: purple;;
+  border-radius: 6px;}
+.overview a:hover{background-color: purple; color: black;}
+.p4{line-height: 30px; font-size: medium;}
+.noidung h1{margin: 0;}
+.contact-me{color:white; margin-top: 80px; background-color: #09090c; width: 100%; border-radius: 0%; margin-bottom: 0; padding-bottom: 0%; font-family: 'Poppins', sans-serif; display: flex; height: 400px;}
+.contact-me .inside{ justify-content: space-between; display: flex; ; margin-top: 50px; max-width: 100%; gap: 100px; margin-left: 140px;}
+.icon{border-radius: 50%; background-color: #5D1C6A; width: 60px; height: 60px; display:inline-flex; justify-content: center; align-items: center; margin-top: 20px}
+.SDT{gap: 10px; justify-content: space-between; display: flex;}
+.Email{gap: 10px; justify-content: space-between; display: flex;}
+.social{gap: 10px; justify-content: space-between; display: flex;}
+.link1{font-family: 'Poppins',sans-serif; text-decoration: none; color: white; font-size: 20px;}
+.link1:hover{color: #a855f7; font-weight: bold;}
+.link2{font-family: 'Poppins',sans-serif; text-decoration: none; color: white; font-size: 20px; line-height: 30px;}
+.link2:hover{color: #a855f7; font-weight: bold;}
+.face{border-radius: 50%; color: white; font-size: 29px;}
+.face:hover{color: #a855f7; font-weight: bold;}
+.suka{gap: 25px; display: flex;}
+.insta{border-radius: 50%; color: white; font-size: 29px;}
+.insta:hover{color: #a855f7; font-weight: bold;}
+.work1{border: 2px solid #36064D; border-radius: 12px; display: flex; margin-top: 80px; ; justify-content: space-between;margin-left: 300px; margin-right: 300px; height: 300px; align-items: center; color: white; font-family: "Poppins", sans-serif; }
+.anh2{width: 400px; height: 300px; justify-content: flex-end; display: block;}
+.words{margin-top: 1px; ; padding-left: 20px; margin-left: 50px; height: 200px; max-width: 500px;}
+.words p{padding-left: 35px; margin-top: 1px;}
+.words a{color:rgb(239, 219, 219); display: flex; padding-top: 40px; padding-left: 120px; font-size: larger; border: 10px 10px;}
+.words a:hover{ font-weight: bold; color: #a855f7; }
+.words h2{margin-top: 1px; letter-spacing: 3px; font-size:25px;} 
+html{scroll-behavior: smooth;}
+
+
+
+/* =========================
+   REAL MOBILE FIX
+========================= */
+
+html,
+body{
+  overflow-x:hidden;
+}
+
+.work1{
+  width:min(100%,1400px);
+  margin:80px auto;
+  box-sizing:border-box;
+}
+
+@media (max-width:768px){
+
+  body{
+    overflow-x:hidden;
+  }
+
+  /* NAV */
+
+  .nav{
+    flex-direction:column;
+    gap:18px;
+    padding:16px;
+  }
+
+  .menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+  }
+
+  .menu a{
+    padding:10px 14px;
+    font-size:14px;
+  }
+
+  .menu .active:hover{
+    padding:10px 14px;
+  }
+
+  /* HEADER */
+
+  .anh1{
+    height:300px;
+  }
+
+  .h1{
+    font-size:32px;
+    margin-top:50px;
+    padding:0 20px;
+  }
+
+  .p1{
+    font-size:16px;
+    padding:0 20px;
+  }
+
+  /* CONTENT */
+
+  .content{
+    flex-direction:column;
+    gap:50px;
+    margin:60px auto;
+    padding:0 20px;
+  }
+
+  .overview{
+    width:100%;
+  }
+
+  .overview hr{
+    width:100%;
+    max-width:100%;
+  }
+
+  .overview a{
+    margin-top:25px;
+  }
+
+  .noidung{
+    max-width:100%;
+  }
+
+  .p4{
+    font-size:16px;
+    line-height:30px;
+  }
+
+  /* CONTACT */
+
+  .contact-me{
+    height:auto;
+    padding:50px 20px;
+  }
+
+  .contact-me .inside{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:50px;
+    margin-top:0;
+  }
+
+  .SDT,
+  .Email,
+  .social{
+    justify-content:center;
+  }
+
+}
